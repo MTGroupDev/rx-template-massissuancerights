@@ -21,7 +21,8 @@
     "Header": {
       "NameGuid": "3980f9a1-6324-466c-a076-a37e498a5313",
       "BackgroundPosition": "Stretch"
-    }
+    },
+    "Tabs": []
   },
   "Dependencies": [
     {
@@ -35,6 +36,8 @@
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "mtg.AdminFeatures",
+  "IsolatedAssemblyName": "mtg.AdminFeatures.Isolated",
+  "IsolatedNamespace": "mtg.AdminFeatures.Isolated",
   "OrderedSpecialFolders": [],
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
@@ -50,11 +53,11 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 6
+      "Number": 8
     },
     {
       "Type": "ModuleMetadata",
-      "Number": 6
+      "Number": 8
     },
     {
       "Type": "DomainApi",

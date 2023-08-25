@@ -29,7 +29,7 @@ namespace mtg.CustomAdminModule.Structures.Module
         /// <summary>
         /// id инициатора.
         /// </summary>
-        public int InitiatorID {get; set;}
+        public long InitiatorID {get; set;}
         
         /// <summary>
         /// Корневая папка.
@@ -39,12 +39,12 @@ namespace mtg.CustomAdminModule.Structures.Module
         /// <summary>
         /// id обработаных папок.
         /// </summary>
-        public List<int> ProcessedFoldersId {get; set;}
+        public List<long> ProcessedFoldersId {get; set;}
         
         /// <summary>
         /// id обработаных документов.
         /// </summary>
-        public List<int> ProcessedDocsId {get; set;}
+        public List<long> ProcessedDocsId {get; set;}
         
         /// <summary>
         /// Наименование типа прав.

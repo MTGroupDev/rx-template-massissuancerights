@@ -11,14 +11,9 @@
       "IsHandlerGenerated": true,
       "Parameters": [
         {
-          "NameGuid": "12e7cbc7-c83c-40b1-83a6-f1731f2e8786",
-          "Name": "Folder",
-          "ParameterType": "Integer"
-        },
-        {
-          "NameGuid": "39dc95b9-28a2-4705-a54a-e2693368438f",
+          "NameGuid": "12900407-b781-4e09-9f00-ecb48edaf5de",
           "Name": "InitiatorID",
-          "ParameterType": "Integer"
+          "ParameterType": "String"
         },
         {
           "NameGuid": "3a0a34f8-6c3d-457a-a6c5-ebdd66f0b657",
@@ -43,6 +38,11 @@
         {
           "NameGuid": "9d2390d6-6b03-443f-82c2-cbf26f54cda1",
           "Name": "RightTypeGuid",
+          "ParameterType": "String"
+        },
+        {
+          "NameGuid": "b1fb1087-10c3-4f87-83c0-6f066084d8c2",
+          "Name": "Folder",
           "ParameterType": "String"
         },
         {
@@ -85,13 +85,20 @@
         "NameGuid": "24e7352b-daf5-474a-b94d-f26b2da81845",
         "Name": "WorkingWithRights",
         "BackgroundPosition": "Stretch",
-        "IconName": "GroupIconWorkingWithRights_24e7352bdaf5474ab94df26b2da81845.png"
+        "IconName": "GroupIconWorkingWithRights_24e7352bdaf5474ab94df26b2da81845.png",
+        "TabId": "bfbd0f2a-50cb-4bff-9065-667e02c84223"
       }
     ],
     "Header": {
       "NameGuid": "cb6df98b-831a-42e1-8292-2fa38c900e1f",
       "BackgroundPosition": "Stretch"
-    }
+    },
+    "Tabs": [
+      {
+        "NameGuid": "bfbd0f2a-50cb-4bff-9065-667e02c84223",
+        "Name": "Tab"
+      }
+    ]
   },
   "Dependencies": [
     {
@@ -118,9 +125,6 @@
   ],
   "ExplorerTreeOrder": [
     {
-      "ItemId": "ce90f070-bfe5-4967-80ce-cc976f663798"
-    },
-    {
       "ItemId": "c612fc41-44a3-428b-a97c-433c333d78e9",
       "PreviousItemId": "ce90f070-bfe5-4967-80ce-cc976f663798"
     }
@@ -129,6 +133,8 @@
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "mtg.CustomAdminModule",
+  "IsolatedAssemblyName": "mtg.CustomAdminModule.Isolated",
+  "IsolatedNamespace": "mtg.CustomAdminModule.Isolated",
   "PublicFunctions": [
     {
       "Name": "MassIssuanceRights",
@@ -178,7 +184,7 @@
   "Versions": [
     {
       "Type": "ModuleMetadata",
-      "Number": 6
+      "Number": 8
     },
     {
       "Type": "DomainApi",

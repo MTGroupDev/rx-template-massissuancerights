@@ -15,16 +15,16 @@ namespace mtg.CustomAdminModule.Server
             // Сбор информация о выполнении.
             var info = Structures.Module.AsyncIssuanceRightsInfo.Create();
             info.Guid = Guid.NewGuid();
-            info.InitiatorID = args.InitiatorID;
+            info.InitiatorID = long.Parse(args.InitiatorID);
             info.StartDateTime = Calendar.Now;
-            info.ProcessedFoldersId = new List<int>();
-            info.ProcessedDocsId = new List<int>();
+            info.ProcessedFoldersId = new List<long>();
+            info.ProcessedDocsId = new List<long>();
             
-            info.MainFolder = Sungero.CoreEntities.Folders.Get(args.Folder);
+            info.MainFolder = Sungero.CoreEntities.Folders.Get(long.Parse(args.Folder));
             info.RightType = Guid.Parse(args.RightTypeGuid);
             info.RightTypeName = args.RightTypeName;
             
-            var recipientsId = args.SubjectsRights.Split(';').Select(x => int.Parse(x)).ToList();
+            var recipientsId = args.SubjectsRights.Split(';').Select(x => long.Parse(x)).ToList();
             info.SubjectsOfRights = Sungero.CoreEntities.Recipients.GetAll(x => recipientsId.Contains(x.Id));
             
             info.GrantRightsFolders = args.GrantRightsFolders;
