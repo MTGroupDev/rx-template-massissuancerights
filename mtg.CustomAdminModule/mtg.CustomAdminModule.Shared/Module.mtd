@@ -85,13 +85,20 @@
         "NameGuid": "24e7352b-daf5-474a-b94d-f26b2da81845",
         "Name": "WorkingWithRights",
         "BackgroundPosition": "Stretch",
-        "IconName": "GroupIconWorkingWithRights_24e7352bdaf5474ab94df26b2da81845.png"
+        "IconName": "GroupIconWorkingWithRights_24e7352bdaf5474ab94df26b2da81845.png",
+        "TabId": "8e00c03e-c918-493a-9dda-895a20bdaa8f"
       }
     ],
     "Header": {
       "NameGuid": "cb6df98b-831a-42e1-8292-2fa38c900e1f",
       "BackgroundPosition": "Stretch"
-    }
+    },
+    "Tabs": [
+      {
+        "NameGuid": "8e00c03e-c918-493a-9dda-895a20bdaa8f",
+        "Name": "Tab"
+      }
+    ]
   },
   "Dependencies": [
     {
@@ -178,7 +185,7 @@
   "Versions": [
     {
       "Type": "ModuleMetadata",
-      "Number": 6
+      "Number": 8
     },
     {
       "Type": "DomainApi",
