@@ -49,7 +49,7 @@ namespace mtg.CustomAdminModule.Client
                 
                 var asyncMethod = mtg.CustomAdminModule.AsyncHandlers.AsyncMassIssuanceRightsDocuments.Create();
                                 
-                asyncMethod.Folder = folder.Value.Id;
+                asyncMethod.Folder = folder.Value.Id.ToString();
                 asyncMethod.SubjectsRights = subjectsRightsString;
                 asyncMethod.RightTypeGuid = rightType.ToString();
                 asyncMethod.RightTypeName = typeRights.Value;
@@ -58,7 +58,7 @@ namespace mtg.CustomAdminModule.Client
                 asyncMethod.GrantRightsDocuments = grantRightsDocuments.Value.GetValueOrDefault();
                 asyncMethod.ProcessingSubfolders = processingSubfolders.Value.GetValueOrDefault();
                 asyncMethod.LeaveMorePrivilegedRights = leaveMorePrivilegedRights.Value.GetValueOrDefault();
-                asyncMethod.InitiatorID = Users.Current.Id;
+                asyncMethod.InitiatorID = Users.Current.Id.ToString();
                 asyncMethod.ExecuteAsync();
                 
                 Dialogs.NotifyMessage(mtg.CustomAdminModule.Resources.InformMessageAfterStart);
