@@ -130,7 +130,6 @@
       "PreviousItemId": "ce90f070-bfe5-4967-80ce-cc976f663798"
     }
   ],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "mtg.CustomAdminModule",
@@ -185,7 +184,7 @@
   "Versions": [
     {
       "Type": "ModuleMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "DomainApi",

@@ -33,7 +33,6 @@
     }
   ],
   "DesktopViews": [],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "mtg.AdminFeatures",
@@ -43,7 +42,6 @@
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "mtg.AdminFeatures",
-  "ResourcesKeys": [],
   "ServerAssemblyName": "mtg.AdminFeatures.Server",
   "ServerNamespace": "mtg.AdminFeatures.Server",
   "SharedAssemblyName": "mtg.AdminFeatures.Shared",
@@ -54,11 +52,11 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "ModuleMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "DomainApi",

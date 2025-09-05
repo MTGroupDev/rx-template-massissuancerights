@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
@@ -7,7 +7,7 @@ using Sungero.Content;
 
 namespace mtg.CustomAdminModule.Server
 {
-    public class ModuleAsyncHandlers
+    public partial class ModuleAsyncHandlers
     {
 
         public virtual void AsyncMassIssuanceRightsDocuments(mtg.CustomAdminModule.Server.AsyncHandlerInvokeArgs.AsyncMassIssuanceRightsDocumentsInvokeArgs args)
