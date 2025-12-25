@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace mtg.AdminFeatures.Client
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
   }
