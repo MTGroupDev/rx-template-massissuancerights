@@ -66,40 +66,19 @@
   "CompanyCode": "mtg",
   "Cover": {
     "NameGuid": "ed2917df-8f45-44aa-8356-f73fb59f00ad",
-    "Actions": [
-      {
-        "$type": "Sungero.Metadata.CoverFunctionActionMetadata, Sungero.Metadata",
-        "NameGuid": "538c00ef-f04d-42b0-aa49-0e4c918c730b",
-        "Name": "MassIssuanceRightsDocuments",
-        "FunctionName": "MassIssuanceRightsDocuments",
-        "GroupId": "24e7352b-daf5-474a-b94d-f26b2da81845"
-      }
-    ],
+    "Actions": [],
     "Background": null,
     "Footer": {
       "NameGuid": "e2cdb4ac-47d5-49c5-bba6-6bebd9f44e52",
       "BackgroundPosition": "Stretch"
     },
-    "Groups": [
-      {
-        "NameGuid": "24e7352b-daf5-474a-b94d-f26b2da81845",
-        "Name": "WorkingWithRights",
-        "BackgroundPosition": "Stretch",
-        "IconName": "GroupIconWorkingWithRights_24e7352bdaf5474ab94df26b2da81845.png",
-        "TabId": "bfbd0f2a-50cb-4bff-9065-667e02c84223"
-      }
-    ],
+    "Groups": [],
     "Header": {
       "NameGuid": "cb6df98b-831a-42e1-8292-2fa38c900e1f",
       "BackgroundPosition": "Stretch"
     },
     "RemoteControls": [],
-    "Tabs": [
-      {
-        "NameGuid": "bfbd0f2a-50cb-4bff-9065-667e02c84223",
-        "Name": "Tab"
-      }
-    ]
+    "Tabs": []
   },
   "Dependencies": [
     {
@@ -179,7 +158,7 @@
   "SharedAssemblyName": "mtg.CustomAdminModule.Shared",
   "SharedNamespace": "mtg.CustomAdminModule.Shared",
   "SpecialFolders": [],
-  "Version": "0.0.1.0",
+  "Version": "0.0.1.1",
   "Widgets": [],
   "Versions": [
     {

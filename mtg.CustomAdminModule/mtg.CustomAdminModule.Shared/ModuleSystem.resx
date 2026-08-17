@@ -64,22 +64,10 @@
   <data name="CoverTitle" xml:space="preserve">
     <value>Working with rights</value>
   </data>
-  <data name="CoverGroup_WorkingWithRights" xml:space="preserve">
-    <value>Working with rights</value>
-  </data>
-  <data name="CoverAction_MassIssuanceRightsDocuments" xml:space="preserve">
-    <value>Bulk issuance of rights to folder attachments</value>
-  </data>
-  <data name="CoverDescription_MassIssuanceRightsDocuments" xml:space="preserve">
-    <value>Mass issuance of rights to a folder and its contents with processing of all subfolders.</value>
-  </data>
   <data name="AsyncHandler_Description_83d7096fae33483e8eb95ea680c22ce1" xml:space="preserve">
     <value>Bulk issuance of rights to folder attachments</value>
   </data>
   <data name="CoverDescription" xml:space="preserve">
     <value>Additional options for working with rights</value>
-  </data>
-  <data name="CoverTab_Tab" xml:space="preserve">
-    <value>Tab</value>
   </data>
 </root>

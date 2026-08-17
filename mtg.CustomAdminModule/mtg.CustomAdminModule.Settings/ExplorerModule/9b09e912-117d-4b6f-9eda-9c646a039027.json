@@ -1,0 +1,9 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "SortingPriority": "Medium",
+  "HelpCode": "mtg_CustomAdminModule",
+  "Uuid": "9b09e912-117d-4b6f-9eda-9c646a039027",
+  "ModuleNameGuid": "9b09e912-117d-4b6f-9eda-9c646a039027",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}

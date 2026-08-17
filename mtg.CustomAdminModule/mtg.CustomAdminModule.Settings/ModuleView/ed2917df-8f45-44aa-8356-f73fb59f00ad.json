@@ -2,7 +2,7 @@
   "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
   "Cover": {
     "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverSettings, Sungero.NoCode.Settings.Interfaces",
-    "NameGuid": "eaa6cdc6-fe04-4ca9-8737-9b7df97d4e53",
+    "NameGuid": "2202a348-0a52-47ce-bbcf-fad8352f94a0",
     "Header": {
       "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverHeaderSettings, Sungero.NoCode.Settings.Interfaces",
       "NameGuid": "cb6df98b-831a-42e1-8292-2fa38c900e1f",
@@ -24,8 +24,8 @@
       "$values": [
         {
           "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverTabSettings, Sungero.NoCode.Settings.Interfaces",
-          "TabId": "bfbd0f2a-50cb-4bff-9065-667e02c84223",
-          "NameGuid": "bfbd0f2a-50cb-4bff-9065-667e02c84223",
+          "TabId": "adb2ab17-5e57-4b87-b1b6-2843e893ffa2",
+          "NameGuid": "adb2ab17-5e57-4b87-b1b6-2843e893ffa2",
           "Name": "Tab",
           "Index": 0,
           "ParentId": "00000000-0000-0000-0000-000000000000"
@@ -37,13 +37,13 @@
       "$values": [
         {
           "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverGroupSettings, Sungero.NoCode.Settings.Interfaces",
-          "GroupId": "24e7352b-daf5-474a-b94d-f26b2da81845",
+          "GroupId": "fcb33258-ce08-481f-aea5-2219d8973401",
           "ColumnNumber": 0,
-          "IconName": "e26c9f4a-6c21-4f56-b017-f06fe89e9fcc.svg",
-          "NameGuid": "24e7352b-daf5-474a-b94d-f26b2da81845",
-          "Name": "WorkingWithRights",
+          "IconName": null,
+          "NameGuid": "fcb33258-ce08-481f-aea5-2219d8973401",
+          "Name": "Group",
           "Index": 0,
-          "ParentId": "bfbd0f2a-50cb-4bff-9065-667e02c84223"
+          "ParentId": "adb2ab17-5e57-4b87-b1b6-2843e893ffa2"
         }
       ]
     },
@@ -54,11 +54,11 @@
           "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverFunctionActionSettings, Sungero.NoCode.Settings.Interfaces",
           "FunctionName": "MassIssuanceRightsDocuments",
           "FunctionModuleId": "9b09e912-117d-4b6f-9eda-9c646a039027",
-          "ActionId": "538c00ef-f04d-42b0-aa49-0e4c918c730b",
-          "NameGuid": "538c00ef-f04d-42b0-aa49-0e4c918c730b",
-          "Name": "MassIssuanceRightsDocuments",
+          "ActionId": "a79e5371-7df7-485d-8d35-dedbb8b44dd7",
+          "NameGuid": "a79e5371-7df7-485d-8d35-dedbb8b44dd7",
+          "Name": "Action",
           "Index": 0,
-          "ParentId": "24e7352b-daf5-474a-b94d-f26b2da81845"
+          "ParentId": "fcb33258-ce08-481f-aea5-2219d8973401"
         }
       ]
     },
@@ -94,7 +94,7 @@
           "TypeGuid": "5e9b55c2-c1f5-4e4f-aa09-7b6d461d87ed",
           "Identifier": "ba88ed21-a43c-4684-be90-99c5a22e5c90"
         },
-        "Uuid": "4c1d83bc-3a32-459c-bceb-6f517da84775"
+        "Uuid": "c844da56-6360-472d-b078-ee060d4a6367"
       }
     ]
   },
