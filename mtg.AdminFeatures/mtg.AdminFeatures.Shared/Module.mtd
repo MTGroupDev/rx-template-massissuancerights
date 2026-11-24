@@ -39,9 +39,11 @@
   "IsolatedAssemblyName": "mtg.AdminFeatures.Isolated",
   "IsolatedNamespace": "mtg.AdminFeatures.Isolated",
   "OrderedSpecialFolders": [],
+  "OverrideSuffix": "mtg",
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "mtg.AdminFeatures",
+  "ResourcesKeys": [],
   "ServerAssemblyName": "mtg.AdminFeatures.Server",
   "ServerNamespace": "mtg.AdminFeatures.Server",
   "SharedAssemblyName": "mtg.AdminFeatures.Shared",
@@ -52,7 +54,7 @@
   "Versions": [
     {
       "Type": "SolutionMetadata",
-      "Number": 12
+      "Number": 13
     },
     {
       "Type": "ModuleMetadata",
