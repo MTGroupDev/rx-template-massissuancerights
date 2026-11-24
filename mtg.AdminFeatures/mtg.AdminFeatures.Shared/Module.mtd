@@ -49,7 +49,7 @@
   "SharedAssemblyName": "mtg.AdminFeatures.Shared",
   "SharedNamespace": "mtg.AdminFeatures.Shared",
   "SpecialFolders": [],
-  "Version": "0.0.1.1",
+  "Version": "0.0.1.2",
   "Widgets": [],
   "Versions": [
     {
